@@ -70,13 +70,7 @@ TEMPLATES = [
         },
     },
 ]
-CORS_ORIGIN_WHITELIST = (
-    'google.com',
-    'hostname.example.com',
-    'localhost:8000',
-    '127.0.0.1:9000',
-    '127.0.0.1:8000',
-)
+CORS_ORIGIN_ALLOW_ALL=True
 WSGI_APPLICATION = 'lab_server.wsgi.application'
 
 
